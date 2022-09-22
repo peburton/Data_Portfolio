@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis Portfolio on Perry Burton</title>
+    <link>https://peburton.github.io/Data_Portfolio/</link>
+    <description>Recent content in Data Analysis Portfolio on Perry Burton</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Sep 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://peburton.github.io/Data_Portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NM Cannabis Sales Data / Business Outlook</title>
+      <link>https://peburton.github.io/Data_Portfolio/post/project-1/</link>
+      <pubDate>Thu, 22 Sep 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://peburton.github.io/Data_Portfolio/post/project-1/</guid>
+      <description>Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&amp;rsquo;s Cannabis Control Division. Used google maps, to determine how many cannabis dispensaries are open in particular cities. Used census data to determine population of individual cities. Using PostgreSQL created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&amp;rsquo;s cannabis industry.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://peburton.github.io/Data_Portfolio/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peburton.github.io/Data_Portfolio/about/</guid>
+      <description>Since building my first PC at 14, I&amp;rsquo;ve always had a love for computers and technology. That only grew as I entered adulthood, intitally enrolling in university as a computer science major although it didn&amp;rsquo;t stick for long. I transitioned into the humanities, first as an English major and then transitioning to Journalism. I added Political Science as a second major after taking a political theory course and being amazed at how much there was to learn.</description>
+    </item>
+    
+  </channel>
+</rss>
