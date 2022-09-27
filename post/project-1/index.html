@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>NM Cannabis Sales Data / Business Outlook | Perry Burton</title>
+    <title>NM Cannabis Sales Data / State-line impact | Perry Burton</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 ( city string, med_sales float64, rec_sales float64, total_sales float64, month string );
-Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&rsquo;s Cannabis Control Division. Used census data to determine population of individual cities. Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry.">
+    <meta name="description" content="Intro The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
+When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &ndash; I&rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
+TLDR; New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state.">
     <meta name="generator" content="Hugo 0.103.1" />
     
     
@@ -30,23 +31,26 @@ Analysis of cannabis sales data in New Mexico using publicly available data real
 
     
     
-    <meta property="og:title" content="NM Cannabis Sales Data / Business Outlook" />
-<meta property="og:description" content="CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 ( city string, med_sales float64, rec_sales float64, total_sales float64, month string );
-Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&rsquo;s Cannabis Control Division. Used census data to determine population of individual cities. Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry." />
+    <meta property="og:title" content="NM Cannabis Sales Data / State-line impact" />
+<meta property="og:description" content="Intro The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
+When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &ndash; I&rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
+TLDR; New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://peburton.github.io/Data_Portfolio/post/project-1/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-09-22T10:58:08-04:00" />
 <meta property="article:modified_time" content="2022-09-22T10:58:08-04:00" />
 
-<meta itemprop="name" content="NM Cannabis Sales Data / Business Outlook">
-<meta itemprop="description" content="CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 ( city string, med_sales float64, rec_sales float64, total_sales float64, month string );
-Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&rsquo;s Cannabis Control Division. Used census data to determine population of individual cities. Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry."><meta itemprop="datePublished" content="2022-09-22T10:58:08-04:00" />
+<meta itemprop="name" content="NM Cannabis Sales Data / State-line impact">
+<meta itemprop="description" content="Intro The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
+When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &ndash; I&rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
+TLDR; New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state."><meta itemprop="datePublished" content="2022-09-22T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2022-09-22T10:58:08-04:00" />
-<meta itemprop="wordCount" content="89">
+<meta itemprop="wordCount" content="1219">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="NM Cannabis Sales Data / Business Outlook"/>
-<meta name="twitter:description" content="CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 ( city string, med_sales float64, rec_sales float64, total_sales float64, month string );
-Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&rsquo;s Cannabis Control Division. Used census data to determine population of individual cities. Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry."/>
+<meta name="twitter:title" content="NM Cannabis Sales Data / State-line impact"/>
+<meta name="twitter:description" content="Intro The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
+When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &ndash; I&rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
+TLDR; New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state."/>
 
 	
   </head>
@@ -122,7 +126,7 @@ Analysis of cannabis sales data in New Mexico using publicly available data real
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">NM Cannabis Sales Data / Business Outlook</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">NM Cannabis Sales Data / State-line impact</h1>
           
         
       </div>
@@ -154,7 +158,7 @@ Analysis of cannabis sales data in New Mexico using publicly available data real
   <div id="sharing" class="mt3 ananke-socials">
     
       
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://peburton.github.io/Data_Portfolio/post/project-1/&amp;title=NM%20Cannabis%20Sales%20Data%20/%20Business%20Outlook" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://peburton.github.io/Data_Portfolio/post/project-1/&amp;title=NM%20Cannabis%20Sales%20Data%20/%20State-line%20impact" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
         
         <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
@@ -166,7 +170,7 @@ Analysis of cannabis sales data in New Mexico using publicly available data real
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">NM Cannabis Sales Data / Business Outlook</h1>
+      <h1 class="f1 athelas mt3 mb1">NM Cannabis Sales Data / State-line impact</h1>
       
       
       
@@ -176,18 +180,197 @@ Analysis of cannabis sales data in New Mexico using publicly available data real
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 (
-city string,
-med_sales float64,
-rec_sales float64,
-total_sales float64,
-month string
-);</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="intro">Intro</h1>
+<p>The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.</p>
+<p>When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &ndash; I&rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.</p>
+<h4 id="tldr">TLDR;</h4>
+<p>New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state.</p>
+<h4 id="analysis">Analysis</h4>
+<p>To begin, I sourced the data from the New Mexico Cannabis Control Division&rsquo;s press releases. These came in the form of PDFs as well as a singular webpage.</p>
+<p>The tools used in this analysis are Google BigQuery, Google Sheets, and Tableau.</p>
+<p>To begin, I created a Table to house all of my sales data.</p>
+<pre tabindex="0"><code>CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 (
+  city string,
+  med_sales float64,
+  rec_sales float64,
+  total_sales float64,
+  month string
+  );
+</code></pre><p>I then went about manually inputting the sales data into the table.</p>
+<pre tabindex="0"><code>INSERT NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 
+  (city, med_sales, rec_sales, total_sales, month)
+  VALUES (&#39;Albuquerque&#39;, 6858325.86, 8003406.40, 14861732.26, &#39;April&#39; )
+</code></pre><p>I then downloaded a dataset consisting of population figures from the 2020 U.S. Census. This was an exhaustive list of cities and Census Designated Places (far too much for our needs), so I formed the query below which creates a new table for editing and contains only the cities being utilized in the analysis. The Census dataset was also VERY wide, so I unpivoted the data narrowing the number of columns from the dozens to just three.</p>
+<pre tabindex="0"><code>CREATE TABLE NM_CANNABIS_SALES_22.nm_cannabis_population
+AS SELECT _Label__Grouping__ AS Category, Population, City
+FROM &#39;nm-cannabis.NM_CANNABIS_SALES_22.nm_population_2020_censius 
+        Albuquerque_city__New_Mexico,
+        Las_Cruces_city__New_Mexico, 
+        Santa_Fe_city__New_Mexico, 
+        ....etc.
+FROM `nm-cannabis.NM_CANNABIS_SALES_22.nm_population_2020_census`
+
+UNPIVOT (Population FOR City IN (
+        Albuquerque_city__New_Mexico,
+        Las_Cruces_city__New_Mexico, 
+        Santa_Fe_city__New_Mexico, 
+        ... etc.
+;
+</code></pre><p>I then joined together the two tables I created using the query below,</p>
+<pre tabindex="0"><code>SELECT sales.city, sales.med_sales, sales.rec_sales, sales.total_sales, sales.month, pop.Population
+FROM `nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022`sales
+LEFT JOIN `nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_population` pop
+ON sales.city = pop.City
+WHERE pop.Category = &#39;Total_Population&#39;;
+</code></pre><p>The last line of the query refers to a specific category of population, the Census data had all population data split by demographics but for the purposes of this analysis they were largely unnecessary.</p>
+<p>After the tables were joined I exported the .CSV to Google Sheets. One of the beneifts of using BigQuery is that datasets can be linked to individual sheets making it easy to query data already existing within a database on the Google platform. I chose to keep everything separate for the purposes of this analysis.</p>
+<figure><img src="https://peburton.github.io/Data_Portfolio/images/Sheets%20table.png"/>
+</figure>
+
+<p>Next, I created a pivot table. There I created two new values, Pop Difference and Sales Difference.</p>
+<p>Pop Difference (Dividing Total Sales by Population):</p>
+<pre tabindex="0"><code>=ARRAYFORMULA(D2:D53/E2:E53)
+</code></pre><p>Sales Difference (Dividing Recreational Sales by Medical Sales):</p>
+<pre tabindex="0"><code>=ARRAYFORMULA(C2:C53/B2:B53)
+</code></pre><p>My hypothesis going into the analysis was that cities close to the state line will have disproportionately higher sales figures compared to similarly sized cities further into the state and that they will have considerably higher rates of recreational sales figures compared to medical sales. That was proven fairly accurate. I also fitlered for month in my pivot table, taking only the data from the most recent month. I originally wanted to take the average of the sales data for the past five months, but some areas had drastic outliers that would have skewed the data. I also floated the idea of taking the median of the sales data but decided it would be best just to use the most recent, up-to-date monthly data instead. An average change would be useful (I think) if I was doing a seasonal analysis for example, but for the purpose of this analysis it wasn&rsquo;t entirely necessary.</p>
+<figure><img src="https://peburton.github.io/Data_Portfolio/images/Pivot%20table.png"/>
+</figure>
+
+<p>From the pivot table we can tell that towns on the state line have disproportionately larger sales figures than their population. Looking at the Pop Difference values, in Albuquerque (a town of 564,559 people) if it was only locals buying cannabis, on average, each person from Albuqerque would have to spend $25.91 on cannabis per month to match total sales figures. While in Sunland Park (a town of 16,702 people on the border of Texas and New Mexico) if it was only local buyers, each person from Sunland Park would have to spend $91.44 per month on cannabis to match total sales figures.</p>
+<p>Now, in all likelihood, Sunland Park probably isn&rsquo;t so filled with pot-heads that each person in town is spending a week&rsquo;s groceries on cannabis. One explanation for this is Sunland Park&rsquo;s proximity to Texas.</p>
+<figure><img src="https://peburton.github.io/Data_Portfolio/images/Sunland%20Park%20Cannabis.png"/>
+</figure>
+
+<p>It&rsquo;s only a five minute drive from the interstate at Sunland Park in El Paso, to the nearest dispensary in Sunland Park, New Mexico. As Texas hasn&rsquo;t legalized recreational marijuana many Texans are now crossing state lines. This is well documented in local El Paso media, <a href="https://elpasomatters.org/2022/04/12/el-pasoans-help-drive-sales-of-recreational-marijana-in-sunland-park-anthony-n-m/">including this article</a>.</p>
+<p>In which the publication El Paso Matters reports that on the day recreational use was legalized, nearly everyone waiting in line in Sunland Park, New Mexico &ndash; were from El Paso, TX.</p>
+<h4 id="visualization">Visualization</h4>
+<p>I then created the dashboard below using Tableau. I plotted the cities on a map of New Mexico, creating one map highlighting the difference between total sales and population figures. The second highlighting cities which saw more recreational sales than medical sales. Then I created a table in the bottom right that that also contained these figures.</p>
+
+
+
+
+<div class='tableauPlaceholder' id='viz1664240053464' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt=' '
+        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesData&#47;Dashboard1&#47;1_rss.png'
+        style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='NMCannabisSalesData&#47;Dashboard1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' 
+      value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesData&#47;Dashboard1&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1664240053464');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='1024px';vizElement.style.height='795px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<p>One of the things we notice in our first chart, is that there tends to be a clustering of larger circles in the center of the state (namely the Albuqerque area and the Santa Fe/Taos area). The other large circles we see are along the border with Texas (Tutumcari,Texico, Tatum and Sunland Park).</p>
+
+
+
+
+<div class='tableauPlaceholder' id='viz1664241567293' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt=' '
+        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesDataSheet1&#47;Sheet1&#47;1_rss.png'
+        style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='NMCannabisSalesDataSheet1&#47;Sheet1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' 
+      value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesDataSheet1&#47;Sheet1&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1664241567293');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='1024px';vizElement.style.height='795px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<p>The second chart shows the difference between medical and recreational sales. This is where the border towns come to life.</p>
+
+
+
+
+<div class='tableauPlaceholder' id='viz1664241500942' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt=' '
+        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesDataSheet2&#47;Sheet2&#47;1_rss.png'
+        style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='NMCannabisSalesDataSheet2&#47;Sheet2' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' 
+      value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NM&#47;NMCannabisSalesDataSheet2&#47;Sheet2&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1664241500942');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='1024px';vizElement.style.height='795px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<p>We see large circles all along the border, while the circles shrink the further into the state you head. These towns along the border exhibit much higher levels of recreational sales than medicinal sales.</p>
+<h4 id="whats-next">What&rsquo;s Next</h4>
+<p>This project was just a starting off point for my New Mexico cannabis analysis. Going forward I would like to take a closer look at distance from New Mexico cities to non-legalized state lines (namely Texas) to better plot that data.</p>
+<p>I would also like to gather the number of cannabis retailers in each city, so that we can get a better idea of competition. This would give us a better idea of what areas could be the best to open dispensaries in.</p>
+<p>I would also somehow like to take a closer look at product data, what people tend to buy where.</p>
+<p>Then, just out of curiosity, I&rsquo;d like to take a look at crime data &ndash; just to see if there is any correlation between legalization/number of sales and crime rates.</p>
+<h2 id="summary">Summary</h2>
 <ul>
 <li>Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&rsquo;s Cannabis Control Division.</li>
 <li>Used census data to determine population of individual cities.</li>
-<li>Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch.</li>
-<li>Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry.</li>
+<li>Using Google BigQuery created a table containing all of the data, showcasing ability to create datasets from scratch.</li>
+<li>Using Google BigQuery manipulated data within tables and joined two tables together.</li>
+<li>Manipulated data in Google Sheets to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&rsquo;s cannabis industry.</li>
 <li>Used Tableau to create visualizations on the final analysis.</li>
 </ul>
 <ul class="pa0">
