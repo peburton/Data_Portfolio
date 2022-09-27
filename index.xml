@@ -13,7 +13,8 @@
       <pubDate>Thu, 22 Sep 2022 10:58:08 -0400</pubDate>
       
       <guid>https://peburton.github.io/Data_Portfolio/post/project-1/</guid>
-      <description>Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&amp;rsquo;s Cannabis Control Division. Used google maps, to determine how many cannabis dispensaries are open in particular cities. Used census data to determine population of individual cities. Using PostgreSQL created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&amp;rsquo;s cannabis industry.</description>
+      <description>CREATE TABLE nm-cannabis.NM_CANNABIS_SALES_22.nm_cannabis_sales_2022 ( city string, med_sales float64, rec_sales float64, total_sales float64, month string );
+Analysis of cannabis sales data in New Mexico using publicly available data realeased by the state&amp;rsquo;s Cannabis Control Division. Used census data to determine population of individual cities. Using GoogleBigQuery created a table containing all of the data, showcasing ability to create datasets from scratch. Manipulated data to highlight population compared to sales figures, indicating how weed tourism could be impacting New Mexico&amp;rsquo;s cannabis industry.</description>
     </item>
     
     <item>
