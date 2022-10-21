@@ -8,13 +8,13 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Sep 2022 12:00:00 -0500</lastBuildDate><atom:link href="https://peburton.github.io/Data_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NM Cannabis Sales Data</title>
+      <title>NM Cannabis Sales Data | Google Sheets, Google BigQuery, SQL, Tableau</title>
       <link>https://peburton.github.io/Data_Portfolio/post/project-1/</link>
       <pubDate>Tue, 27 Sep 2022 10:58:08 -0400</pubDate>
       
       <guid>https://peburton.github.io/Data_Portfolio/post/project-1/</guid>
-      <description>Intro The impetus for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
-When the recreational sale of cannabis commenced on April 1, 2022 I was in the newsroom &amp;ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &amp;ndash; I&amp;rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
+      <description>The inspiration for this analysis comes from my background as a journalist working on the border of Texas and New Mexico.
+When the recreational sale of cannabis began on April 1, 2022 I was in the newsroom &amp;ndash; sending out crews, researching dispensaries, and putting together a show for broadcast. Since then &amp;ndash; I&amp;rsquo;ve kept a close eye on the sales figures out of the Land of Enchantment.
 TLDR New Mexican cities along the borders with neighboring states tend to have a disproportionate number of sales (largely recreational) compared to similarly sized areas further into the state.</description>
     </item>
     
